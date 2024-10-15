@@ -7,6 +7,7 @@ int main () {
     float sugarPriceUSD, ricePricePound, sardinesPricePound, coffeePriceUSD, milkPriceUSD;
 	float sugarQty, riceQty, sardinesQty, coffeeQty, milkQty;
 	float usdToPhp, poundToPhp;
+	float totalCostPHP
 	
 	cout <<"======< Peejay_Rocas_Sari-Sari_Store >======/n ";
 	cout << "Enter the Price of sugar: ";
@@ -31,9 +32,9 @@ int main () {
 	cout << "Enter the Quantity of milk: ";
 	cin >> milkQty;
 	
-	cout << "The cost of one dollar in pesos";
+	cout << "The cost of one dollar in pesos:";
 	cin >> usdToPhp;
-	cout << "The cost of one pound in pesos";
+	cout << "The cost of one pound in pesos:";
 	cin >> poundToPhp
 	
 	
