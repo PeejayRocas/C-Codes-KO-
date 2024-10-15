@@ -37,10 +37,10 @@ int main () {
 	cin >> poundToPhp
 	
 	
-	float totalCostPHP = (sugarPriceUSD * sugarQty * usdToPhp) +
-	                     (ricePricePound * riceQty * poundToPhp) +
-						 (sardinesPricePound * sardinesQty * poundToPhp) +
-						 (coffeePriceUSD * coffeeQty * usdToPhp) +
-						 (milkPriceUSD * milkQty * usdToPhp);	
+        totalCostPHP = (sugarPriceUSD * sugarQty * usdToPhp) +
+	               (ricePricePound * riceQty * poundToPhp) +
+		       (sardinesPricePound * sardinesQty * poundToPhp) +
+		       (coffeePriceUSD * coffeeQty * usdToPhp) +
+		       (milkPriceUSD * milkQty * usdToPhp);	
 return 0;
 }
